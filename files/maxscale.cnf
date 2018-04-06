@@ -1,0 +1,64 @@
+# MaxScale documentation:
+# https://mariadb.com/kb/en/mariadb-enterprise/mariadb-maxscale-22/
+
+# Global parameters
+#
+# Complete list of configuration options:
+# https://mariadb.com/kb/en/mariadb-enterprise/mariadb-maxscale-22-mariadb-maxscale-configuration-usage-scenarios/
+
+[maxscale]
+threads=auto
+
+# Server definitions
+#
+# Set the address of the server to the network
+# address of a MariaDB server.
+#
+
+[Splitter Service]
+type=service
+router=readwritesplit
+servers=master.mysql,slave.mysql
+user=maxscale
+passwd=admin123
+
+
+
+[Splitter Listener]
+type=listener
+service=Splitter Service
+protocol=MySQLClient
+port=3306
+#socket=/tmp/ClusterMaster
+
+
+[master.mysql]
+type=server
+address=172.31.32.143
+port=3306
+protocol=MySQLBackend
+
+[slave.mysql]
+type=server
+address=172.31.41.137
+port=3306
+protocol=MySQLBackend
+
+[Replication Monitor]
+type=monitor
+module=mysqlmon
+servers=master.mysql,slave.mysql
+user=maxscale
+passwd=admin123
+
+
+
+[CLI]
+type=service
+router=cli
+
+[CLI Listener]
+type=listener
+service=CLI
+protocol=maxscaled
+socket=default
