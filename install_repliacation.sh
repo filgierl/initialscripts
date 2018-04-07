@@ -1,5 +1,5 @@
 ##Tworzenie backupu Wykonac TYLKO NA MASTER
- mysqldump --database dolibarr > /home/ubuntu/dolibarr.sql
+ mysqldump --databases dolibarr > /home/ubuntu/dolibarr.sql
  mysql
  use dolibarr;
  #Do odczytania Position i  File
