@@ -15,10 +15,11 @@ GRANT ALL PRIVILEGES ON `dolibarr`.* TO 'dolibarr'@'%' IDENTIFIED BY 'adminqwas@
 GRANT ALL PRIVILEGES ON `replikant`.* TO 'replikant'@'%' IDENTIFIED BY 'admin123';
 GRANT REPLICATION SLAVE ON *.* TO 'replikant'@'%' IDENTIFIED BY 'admin123';
 CREATE USER 'maxscale'@'%' IDENTIFIED BY 'admin123';
-GRANT ALL PRIVILEGES ON `dolibarr`.* TO 'maxscale'@'%' IDENTIFIED BY 'admin123';
+GRANT ALL PRIVILEGES ON . TO 'maxscale'@'%' IDENTIFIED BY 'admin123';
 GRANT SELECT ON mysql.user TO 'maxscale'@'%';
 GRANT SELECT ON mysql.db TO 'maxscale'@'%';
 GRANT SELECT ON mysql.tables_priv TO 'maxscale'@'%';
+GRANT RELOAD, PROCESS, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'maxscale'@'%';
 GRANT SHOW DATABASES ON *.* TO 'maxscale'@'%';
 FLUSH PRIVILEGES;
 exit
