@@ -11,7 +11,11 @@ mysql_secure_installation
 ##
 mysql 
 CREATE DATABASE dolibarr  DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+CREATE DATABASE wordpress  ;
+create user 'wordpress_user'@'%' IDENTIFIED BY 'admin123';
 GRANT ALL PRIVILEGES ON `dolibarr`.* TO 'dolibarr'@'%' IDENTIFIED BY 'adminqwas@123';
+#GRANT ALL PRIVILEGES ON `wordpress`.* TO 'replikant'@'%' IDENTIFIED BY 'adminqwas@123';
+GRANT ALL PRIVILEGES ON `wordpress`.* TO 'wordpress_user'@'%' IDENTIFIED BY 'admin123';
 GRANT ALL PRIVILEGES ON `replikant`.* TO 'replikant'@'%' IDENTIFIED BY 'admin123';
 GRANT REPLICATION SLAVE ON *.* TO 'replikant'@'%' IDENTIFIED BY 'admin123';
 CREATE USER 'maxscale'@'%' IDENTIFIED BY 'admin123';
