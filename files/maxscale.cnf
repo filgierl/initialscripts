@@ -18,7 +18,7 @@ threads=auto
 [Splitter Service]
 type=service
 router=readwritesplit
-servers=master.mysql,slave.mysql
+servers=master.mysql,slave1.mysql,slave2.mysql
 user=maxscale
 passwd=admin123
 
@@ -34,20 +34,28 @@ port=3306
 
 [master.mysql]
 type=server
-address=172.31.32.143
+address=192.168.101.4
 port=3306
 protocol=MySQLBackend
 
-[slave.mysql]
+[slave1.mysql]
 type=server
-address=172.31.41.137
+address=192.168.101.7
 port=3306
 protocol=MySQLBackend
+
+
+[slave2.mysql]
+type=server
+address=192.168.101.9
+port=3306
+protocol=MySQLBackend
+
 
 [Replication Monitor]
 type=monitor
 module=mysqlmon
-servers=master.mysql,slave.mysql
+servers=master.mysql,slave1.mysql,slave2.mysql
 user=maxscale
 passwd=admin123
 

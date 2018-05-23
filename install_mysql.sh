@@ -29,3 +29,4 @@ FLUSH PRIVILEGES;
 exit
 #Wczytanie bazy z danymi
 mysql -u root dolibarr < /home/ubuntu/initialscripts/files/mysqldump_dolibarr_7.0.0.sql
+

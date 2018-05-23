@@ -1,0 +1,5 @@
+172.31.36.189 master.mysql
+172.31.35.158 slave1.mysql
+172.31.35.115 slave2.mysql
+172.31.41.243 maxscale.mysql
+

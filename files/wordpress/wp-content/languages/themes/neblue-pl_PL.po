@@ -1,0 +1,671 @@
+# Translation of NEBlue in Polish
+# This file is distributed under the same license as the NEBlue package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-29 19:18:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: NEBlue\n"
+
+#. Description of the plugin/theme
+msgid "NEBlue is an elegant blog theme with responsive and easily customizable."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "NEBlue"
+msgstr ""
+
+#: searchform.php:8
+msgctxt "label"
+msgid "Search for:"
+msgstr "Szukaj:"
+
+#: searchform.php:8
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla zapytania &#8222;%s&#8221;"
+
+#: options.php:300
+msgid "About NEBlue"
+msgstr ""
+
+#: options.php:302
+msgid "View Demo"
+msgstr "Zobacz demo"
+
+#: options.php:281
+msgid "Flickr"
+msgstr "Flickr"
+
+#: options.php:267
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: options.php:274
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: options.php:260
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: options.php:246
+msgid "YouTube"
+msgstr "YouTube"
+
+#: options.php:253
+msgid "Instagram"
+msgstr "Instagram"
+
+#: options.php:239
+msgid "Google Plus"
+msgstr ""
+
+#: options.php:232
+msgid "Twitter"
+msgstr "Twitter"
+
+#: options.php:225
+msgid "Facebook"
+msgstr "Facebook"
+
+#: options.php:211
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: options.php:218
+msgid "Skype"
+msgstr "Skype"
+
+#: options.php:198
+msgid "Enter link to redirect slider when clicked"
+msgstr "Wprowadź link przekierowujący z slidera"
+
+#: options.php:207
+msgid "Social"
+msgstr "Społecznościowe"
+
+#: options.php:186
+msgid "Enter title for your slider."
+msgstr "Wprowadź tytuł slidera."
+
+#: options.php:192
+msgid "Enter your slider description."
+msgstr "Wprowadź opis pod tytułem slidera."
+
+#: options.php:180
+msgid "Image Upload #%1$s"
+msgstr "Wgraj zdjęcie #%1$s"
+
+#: options.php:181
+msgid "Upload slider image."
+msgstr "Wgraj zdjęcie do slidera."
+
+#: options.php:171
+msgid "Check to activate slider."
+msgstr "Zaznacz, aby włączyć pokaz slajdów."
+
+#: options.php:170
+msgid "Activate slider"
+msgstr "Włącz pokaz slajdów"
+
+#: options.php:164
+msgid "Slider"
+msgstr "Pokaz slajdów"
+
+#: options.php:150
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Wybierz domyślny układ wpisów. Ten układ ma wpływ na wyświetlanie wszystkich wpisów, hyba że zostanie on indywidualnie zmieniony dla wybranego wpisu."
+
+#: options.php:149
+msgid "Default layout for single posts only"
+msgstr "Domyślny układ wpisów"
+
+#: options.php:137
+msgid "Default layout for pages only"
+msgstr "Domyślny układ stron"
+
+#: options.php:138
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Wybierz domyśly układ stron. Będzie on miał wpływ na układ wszystkich stron, chyba że zostanie on indywidualnie zmieniony dla wybranej strony."
+
+#: options.php:126
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options."
+msgstr "Wybierz domyślny układ strony. Będzie on miał wpływ na wygląd archiwum, wyszukiwania, itd. Wygląd pojedynczych stron i wpisów może być zmieniony poniżej. "
+
+#: options.php:120
+msgid "Design"
+msgstr "Projekt"
+
+#: options.php:125
+msgid "Default layout"
+msgstr "Domyślny układ"
+
+#: options.php:102
+msgid "Activate favicon"
+msgstr "Aktywuj favicon"
+
+#: options.php:103
+msgid "Check to activate favicon. Upload fav icon from below option"
+msgstr "Zaznacz, aby włączyć favicon. Wgraj go za pomocą opcji poniżej"
+
+#: options.php:111
+msgid "Upload favicon"
+msgstr "Wgraj favicon"
+
+#: options.php:112
+msgid "Upload favicon for your site."
+msgstr "Wgraj favicon dla swojej witryny."
+
+#: options.php:97
+msgid "Header"
+msgstr "Nagłówek"
+
+#: options.php:36
+msgid "Waffle"
+msgstr "Wafel"
+
+#: options.php:34
+msgid "Omelette"
+msgstr "Omlet"
+
+#: options.php:35
+msgid "Crepe"
+msgstr "Krepa"
+
+#: options.php:32
+msgid "French Toast"
+msgstr "Francuzki toast"
+
+#: options.php:33
+msgid "Pancake"
+msgstr "naleśnik"
+
+#: options.php:24
+msgid "Two"
+msgstr "Dwa"
+
+#: options.php:25
+msgid "Three"
+msgstr "Trzy"
+
+#: options.php:26
+msgid "Four"
+msgstr "Cztery"
+
+#: options.php:27
+msgid "Five"
+msgstr "Pięć"
+
+#: inc/widgets/widgets.php:49
+msgid "Shows widgets at footer sidebar three."
+msgstr "Pokazuje widgety w trzecim panelu stopki."
+
+#: options.php:23
+msgid "One"
+msgstr "Jeden"
+
+#: inc/widgets/widgets.php:47
+msgid "Footer Sidebar Three"
+msgstr "Trzeci panel stopki"
+
+#: inc/widgets/widgets.php:38
+msgid "Footer Sidebar Two"
+msgstr "Drugi panel stopki"
+
+#: inc/widgets/widgets.php:40
+msgid "Shows widgets at footer sidebar two."
+msgstr "Pokazuje widgety w drugim panelu stopki."
+
+#: inc/widgets/widgets.php:29
+msgid "Footer Sidebar One"
+msgstr "Pierwszy panel stopki"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at footer sidebar one."
+msgstr "Pokazuje widgety w pierwszym panelu stopki."
+
+#: inc/widgets/widgets.php:20
+msgid "Left Sidebar"
+msgstr "Panel boczny po lewej"
+
+#: inc/widgets/widgets.php:11
+msgid "Right Sidebar"
+msgstr "Panel boczny po prawej"
+
+#: inc/template-tags.php:213
+msgid "Newer posts"
+msgstr "Nowsze wpisy"
+
+#: inc/template-tags.php:209
+msgid "Older posts"
+msgstr "Starsze wpisy"
+
+#: inc/template-tags.php:203
+msgid "Page"
+msgstr "Strona"
+
+#: inc/template-tags.php:185
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na moderację."
+
+#: inc/template-tags.php:180
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+#: inc/template-tags.php:178
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:92
+msgid "Archives"
+msgstr "Archiwa"
+
+#: inc/template-tags.php:86
+msgid "Archives: %s"
+msgstr "Archiwa: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:90
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:83
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Czaty"
+
+#: inc/template-tags.php:81
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Pliki dźwiękowe"
+
+#: inc/template-tags.php:79
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statusy"
+
+#: inc/template-tags.php:77
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Odnośniki"
+
+#: inc/template-tags.php:75
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Cytaty"
+
+#: inc/template-tags.php:73
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Filmy"
+
+#: inc/template-tags.php:71
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Obrazki"
+
+#: inc/template-tags.php:69
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerie"
+
+#: inc/template-tags.php:67
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Notatki na marginesie"
+
+#: inc/template-tags.php:64
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:64
+msgid "Day: %s"
+msgstr "Dzień: %s"
+
+#: inc/template-tags.php:62
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:62
+msgid "Month: %s"
+msgstr "Miesiąc: %s"
+
+#: inc/template-tags.php:60
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:60
+msgid "Year: %s"
+msgstr "Rok: %s"
+
+#: inc/template-tags.php:58
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:56
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:54
+msgid "Category: %s"
+msgstr "Kategoria: %s"
+
+#: inc/template-tags.php:38
+msgid "% Comments"
+msgstr "% komentarzy"
+
+#: inc/template-tags.php:38
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+#: inc/template-tags.php:38
+msgid "Leave a comment"
+msgstr "Dodaj komentarz"
+
+#: inc/template-tags.php:29 inc/template-tags.php:43
+msgid ", "
+msgstr ", "
+
+#: inc/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr "Pogrubiona kursywa"
+
+#: inc/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr "Pogrubienie"
+
+#: inc/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Zwykły"
+
+#: inc/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr "Kursywa"
+
+#: inc/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr "Zablokuj połączenie"
+
+#: inc/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr "Przewijaj normalnie"
+
+#: inc/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr "Prawy dolny"
+
+#: inc/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr "Dolny środkowy"
+
+#: inc/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr "Środkowy prawy"
+
+#: inc/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr "Lewy dolny"
+
+#: inc/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr "Środkowy cetrum"
+
+#: inc/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr "Środkowy lewy"
+
+#: inc/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr "Prawy górny"
+
+#: inc/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr "Górny środkowy"
+
+#: inc/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr "Powtarzaj wszystko"
+
+#: inc/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr "Lewy górny"
+
+#: inc/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr "Powtarzaj w pionie"
+
+#: inc/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr "Powtarzaj w poziomie"
+
+#: inc/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr "Nie powtarzaj"
+
+#: inc/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "Zobacz plik"
+
+#: inc/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Odśwież wersję WordPressa, aby skorzystać ze wsparcia dla multimediów."
+
+#: inc/includes/class-options-media-uploader.php:67
+#: inc/includes/class-options-media-uploader.php:119
+msgid "Remove"
+msgstr "Usuń"
+
+#: inc/includes/class-options-media-uploader.php:65
+#: inc/includes/class-options-media-uploader.php:118
+msgid "Upload"
+msgstr "Wyślij na serwer"
+
+#: inc/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "Nie wybrano pliku"
+
+#: inc/includes/class-options-framework-admin.php:289
+msgid "Options saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: inc/includes/class-options-framework-admin.php:235
+msgid "Default options restored."
+msgstr "Ustawienia domyślne przywrócono."
+
+#: inc/includes/class-options-framework-admin.php:204
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Kliknij OK aby zresetować. Wszystkie ustawienia zostaną skasowane."
+
+#: inc/includes/class-options-framework-admin.php:204
+msgid "Restore Defaults"
+msgstr "Przywróć domyślne"
+
+#: inc/includes/class-options-framework-admin.php:203
+msgid "Save Options"
+msgstr "Zapisz opcje"
+
+#: inc/includes/class-options-framework-admin.php:91
+#: inc/includes/class-options-framework-admin.php:92
+msgid "Theme Options"
+msgstr "Opcje motywu"
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: header.php:68
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:54
+msgid "Find Us on LinkedIn"
+msgstr ""
+
+#: header.php:57
+msgid "Find Us on Tumblr"
+msgstr ""
+
+#: header.php:60
+msgid "Find Us on Flickr"
+msgstr ""
+
+#: header.php:48
+msgid "Follow Us on Instagram"
+msgstr ""
+
+#: header.php:51
+msgid "Pin Us on Pinterest"
+msgstr ""
+
+#: header.php:39
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: header.php:42
+msgid "Find Us on Google Plus"
+msgstr ""
+
+#: header.php:45
+msgid "View our YouTube Channel"
+msgstr ""
+
+#: header.php:36
+msgid "Find Us on Facebook"
+msgstr ""
+
+#: header.php:30
+msgid "Send Us an Email"
+msgstr ""
+
+#: header.php:33
+msgid "Contact Us on Skype"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Przejdź do treści"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Motyw: %1$s by %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Dumnie wspierane przez WordPressa"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://pl.wordpress.org/"
+
+#: content.php:20
+msgid "Read more"
+msgstr "Czytaj dalej"
+
+#: content-page.php:31 inc/template-tags.php:34 inc/template-tags.php:182
+msgid "Edit"
+msgstr "Edytuj"
+
+#: content-page.php:24 content-single.php:22 content.php:24
+msgid "Pages:"
+msgstr "Strony:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie przyniesie lepsze rezultaty."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Brak wyników wyszukiwania. Proszę spróbować ponownie z innymi słowami."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gotów, by opublikować pierwszy post? <a href=\"%1$s\">Zacznij tutaj</a>. "
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: comments.php:93
+msgid "Cancel reply"
+msgstr "Anuluj pisanie odpowiedzi"
+
+#: comments.php:86
+msgid "Website"
+msgstr "Strona internetowa"
+
+#: comments.php:85
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:84
+msgid "Name"
+msgstr "Nazwa"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Możliwość komentowania jest wyłączona."
+
+#: comments.php:39 comments.php:60
+msgid "Newer Comments"
+msgstr "Nowsze komentarze"
+
+#: comments.php:38 comments.php:59
+msgid "Older Comments"
+msgstr "Starsze komentarze"
+
+#: comments.php:35 comments.php:56
+msgid "Comment navigation"
+msgstr "Nawigacja po komentarzach"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna myśl na temat &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s myśli na temat &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s myśli na temat &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Spróbuj przeszukać miesięczne archiwa. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Najczęściej używane kategorie"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Wygląda na to, że nic nie znaleziono. Spróbuj użyć poniższych linków albo użyj wyszukiwarki."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Nie udało się znaleźć pożądanej strony."
+
+#. Author URI of the plugin/theme
+msgid "http://nethemes.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NEThemes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://nethemes.com/themes/neblue/"
+msgstr ""
